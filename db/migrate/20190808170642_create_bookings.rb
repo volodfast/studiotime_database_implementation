@@ -7,7 +7,7 @@ class CreateBookings < ActiveRecord::Migration[5.2]
       t.time :start_time
       t.time :end_time
       t.integer :price
-      t.status :integer, default: 0
+      t.integer :status, default: 0
 
       t.timestamps
     end
